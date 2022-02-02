@@ -8,15 +8,15 @@
 <html lang="en">
 
 
-<?php include('common/head.php'); ?>
+<?php include('../vue/common/head.php'); ?>
 
 
 <body>
 
     <?php
-    include('common/header.php');
+    include('../vue/common/header.php');
 
-    include('common/nav.php');
+    include('../vue/common//nav.php');
 
     //  renvoie null si la variable loc n'est pas définie au lieu de renvoyer une erreur, si elle est définie renvoie à la page 'home'
     if ($loc == null) {
@@ -24,23 +24,23 @@
     }
     switch ($loc) {
         case 'home':
-            include("content/index_content.php");
+            include("../vue/content/index_content.php");
             break;
         case 'about':
-            include("content/about_content.php");
+            include("../vue/content/about_content.php");
             break;
         case 'products':
-            include("content/product_content.php");
+            include("../vue/content/product_content.php");
             break;
         case 'store':
-            include("content/store_content.php");
+            include("../vue/content/store_content.php");
             break;
         default:
-            include("content/404.php");
+            include("../vue/content/404.php");
             break;
     }
 
-    include('common/footer.php');
+    include('../vue/common/footer.php');
     ?>
 
     <!-- Bootstrap core JS-->

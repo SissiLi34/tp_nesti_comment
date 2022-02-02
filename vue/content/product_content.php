@@ -9,7 +9,7 @@
                     </h2>
                 </div>
             </div>
-            <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="assets/img/coeur.jpg" alt="..." />
+            <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="../vue/assets/img/coeur.jpg" alt="..." />
             <div class="product-item-description d-flex me-auto">
                 <div class="bg-faded p-5 rounded">
                     <p class="mb-0">Nous sommes fier de nos produits. Du chocolat aux produits crémiers en passant par les pépites de décoration, tout est disponible dans nos boutiques.</p>
@@ -29,7 +29,7 @@
                     </h2>
                 </div>
             </div>
-            <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="assets/img/fouet_2.jpg" alt="..." />
+            <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="../vue/assets/img/fouet_2.jpg" alt="..." />
             <div class="product-item-description d-flex ms-auto">
                 <div class="bg-faded p-5 rounded">
                     <p class="mb-0">Vous pouvez choisir de travailler dans les meilleurs conditions, en achetant nos ustensiles Nesti. Beaux et fiables, vous pouvez les offrir à vos proches, et ainsi être sur de leur faire plaisir.</p>
@@ -49,7 +49,7 @@
                     </h2>
                 </div>
             </div>
-            <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="assets/img/mug.jpg" alt="..." />
+            <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="../vue/assets/img/mug.jpg" alt="..." />
             <div class="product-item-description d-flex me-auto">
                 <div class="bg-faded p-5 rounded">
                     <p class="mb-0">Cherchez l'inspiration parmis la multitude de recettes testées et approuvées par nos colaborateurs.</p>
