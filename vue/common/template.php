@@ -16,7 +16,7 @@
     <?php
     include('../vue/common/header.php');
 
-    include('../vue/common//nav.php');
+    include('../vue/common/nav.php');
 
     //  renvoie null si la variable loc n'est pas définie au lieu de renvoyer une erreur, si elle est définie renvoie à la page 'home'
     if ($loc == null) {
@@ -35,6 +35,9 @@
         case 'store':
             include("../vue/content/store_content.php");
             break;
+        case 'comments':
+            include("../vue/content/commentaire_content.php");
+            break;
         default:
             include("../vue/content/404.php");
             break;
@@ -46,7 +49,6 @@
     <!-- Bootstrap core JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Core theme JS-->
-    <script src="js/scripts.js"></script>
 </body>
 
 </body>

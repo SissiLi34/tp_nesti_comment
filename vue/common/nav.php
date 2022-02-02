@@ -20,7 +20,9 @@
 
 
                 <!-- <li class="nav-item active px-lg-4"> -->
-                <li class="nav-item<?= ($loc == 'store') ? 'active' : ''; ?> px-lg-4"><a class="nav-link text-uppercase" href="index.php?loc=store">Store</a></li>
+                <li class="nav-item<?= ($loc == 'store') ? 'active' : ''; ?> px-lg-4"><a class="nav-link text-uppercase" href="index.php?loc=store">Réalisations</a></li>
+
+                <li class="nav-item<?= ($loc == 'comments') ? 'active' : ''; ?> px-lg-4"><a class="nav-link text-uppercase" href="index.php?loc=comments">Comments</a></li>
             </ul>
         </div>
     </div>
