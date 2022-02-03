@@ -22,7 +22,7 @@
     <div class="container">
         <div class="product-item">
             <div class="product-item-title d-flex">
-                <div class="bg-faded ustensil p-5 d-flex mr-auto rounded">
+                <div class="bg-faded p-5 d-flex mr-auto rounded">
                     <h2 class="section-heading mb-0">
                         <span class="section-heading-upper">Equipez-vous comme il faut</span>
                         <span class="section-heading-lower">Ustensiles</span>
@@ -41,8 +41,8 @@
 <section class="page-section">
     <div class="container">
         <div class="product-item">
-            <div class="product-item-title droite d-flex">
-                <div class="bg-faded p-5 d-flex ms-auto rounded">
+            <div class="product-item-title  d-flex">
+                <div class="bg-faded  droite p-5 d-flex ms-auto rounded">
                     <h2 class="section-heading mb-0">
                         <span class="section-heading-upper">En toutes saisons</span>
                         <span class="section-heading-lower">Nos recettes</span>
